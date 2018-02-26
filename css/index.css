@@ -1,0 +1,143 @@
+.container{
+    width: 95%;
+    margin: auto;
+}
+.mbd3rem{
+    margin-bottom: .3rem;
+}
+.col-4{
+    width: 30%;
+    padding: .1rem;
+    float: left;
+}
+.col-3{
+    width: 24%;
+    float: left;
+    padding: 0;
+    border:solid #c3cacf 2px;
+}
+.noright{
+    border-right: none;
+}
+.noleft{
+    border-left: none;
+}
+img{
+    width: 100%;
+}
+.navbar-header{
+	position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #0073be;
+    z-index: 999999;
+}
+.navbar-header .logo{
+	width: 35%;
+}
+.navbar-header .ri{
+	width: 55%;
+}
+.nav{
+    position: relative;
+}
+.nav .box{
+    position: absolute;
+    top: .7rem;
+    right: 0;
+    width: 3rem;
+}
+.nav .none{
+    display: none;
+}
+.nav .box a{
+    display: block;
+    height: .6rem;
+    line-height: .6rem;
+    background: #0073be;
+    color: #fff;
+    font-size: .22rem;
+    text-align: center;
+}
+.banner {
+    margin-top: .68rem;
+}
+.banner a{
+    display: block;
+    width: 100%;
+}
+.icon_list {
+
+}
+.icon_list .swiper-container{
+    height: 1.2rem;
+    width: 85%;
+}
+.icon_list .swiper-wrapper{
+    width: 80%;
+}
+.icon_list .swiper-container .swiper-slide{
+    width: 17%;
+}
+.icon_list .swiper-container .swiper-slide a{
+    display: inline-block;
+    width: 100%;
+}
+.icon_list .swiper-button {
+    position: relative;
+    top: -.5rem;
+}
+.icon_list .swiper-button-next{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url("../images/next.png") no-repeat;
+}
+.icon_list .swiper-button-prev{
+    background: url("../images/prev.png") no-repeat;
+}
+.icon_list .swiper-slide span{
+    position: absolute;
+    z-index: 4;
+    height: .3rem;
+    width: .9rem;
+    text-align: center;
+    display: block;
+    background: #fff;
+    color: #a5a5a5;
+    margin-top: -.26rem;
+}
+.container .col-3 img{
+    height: 1.3rem;
+}
+.container .col-4 span{
+    position: relative;
+    display: block;
+    height: .36rem;
+    line-height: .36rem;
+    font-size: .2rem;
+    color: #fff;
+    text-align: center;
+}
+.container .col-4 i{
+    position: absolute;
+    top: .03rem;
+    left: .1rem;
+    display: inline-block;
+    width: .3rem;
+}
+.container .col-4 i img{
+    display: block;
+    width: 100%;
+}
+.footer{
+    background-color: #E4E9EE;
+    color: #939393;
+    text-align: center;
+    padding: 12px 0;
+}
+.footer .copyright img{
+    display: inline-block;
+    width: 0.2rem;
+}
