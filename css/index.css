@@ -37,11 +37,12 @@ img{
 	width: 35%;
 }
 .navbar-header .ri{
-	width: 51%;
+	width: .8rem;
     float: right;
 }
 .nav{
     position: relative;
+    /*padding-top: .1rem;*/
 }
 .nav .box{
     display: block;
@@ -69,6 +70,26 @@ img{
     display: block;
     width: 100%;
 }
+.banner .swiper-button-next1{
+    z-index:2;
+    position: absolute;
+    top:50%;
+    right:0;
+    margin-top: -.34rem;
+    width: .5rem;
+    height:1rem;
+    background: url("../images/banner_next.png") no-repeat;
+}
+.banner .swiper-button-prev1{
+    z-index:2;
+    position: absolute;
+    top:50%;
+    left:0;
+    margin-top: -.34rem;
+    width: .5rem;
+    height:1rem;
+    background: url("../images/banner_prev.png") no-repeat;
+}
 .icon_list {
 
 }
@@ -93,11 +114,11 @@ img{
 .icon_list .swiper-button-next{
     position: absolute;
     top: -.3rem;
-    right: -.1rem;
+    right: 0;
     background: url("../images/next.png") no-repeat;
 }
 .icon_list .swiper-button-prev{
-    left: 0;
+    left: .1rem;
     top: -.3rem;
     background: url("../images/prev.png") no-repeat;
 }
@@ -110,7 +131,6 @@ img{
     display: block;
     background: #fff;
     color: #a5a5a5;
-    margin-top: -.3rem;
     font-size: .23rem;
 }
 .container .col-3 img{

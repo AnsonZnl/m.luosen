@@ -33,7 +33,7 @@
 		</div>
 	</div>
     <div class="banner mbd3rem">
-        <div class="swiper-container">
+        <div class="swiper-container swiper-container1">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
                     <a href=""><img src="images/banner_kv%202.jpg" alt=""></a>
@@ -43,14 +43,14 @@
                 </div>
             </div>
             <!-- Add Pagination -->
-            <div class="swiper-pagination"></div>
+            <div class="swiper-pagination swiper-pagination1"></div>
             <!-- Add Arrows -->
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next1"></div>
+            <div class="swiper-button-prev1"></div>
         </div>
     </div>
     <div class="icon_list mbd3rem">
-        <div class="swiper-container">
+        <div class="swiper-container swiper-container2">
             <div class="swiper-wrapper">
                 <div class="swiper-slide"><a href="">
                     <img src="images/m2.jpg" alt="">
@@ -86,7 +86,7 @@
                 </a></div>
             </div>
             <!-- Add Pagination -->
-            <!--<div class="swiper-pagination"></div>-->
+            <!--<div class="swiper-pagination swiper-pagination2"></div>-->
             <!-- Add Arrows -->
     </div>
         <div class="swiper-button">
@@ -114,7 +114,7 @@
         <div class="col-3 noright"><img src="images/a3.jpg" alt=""></div>
         <div class="col-3"><img src="images/a4.jpg" alt=""></div>
     </div>
-    <div class="footer">`
+    <div class="footer">
         <div class="container">
             <div class="copyright">
                 <p>© DALIAN LAWSON CO.,LTD.</p>
@@ -138,27 +138,31 @@
 
 
 
-        var swiper = new Swiper('.banner .swiper-container', {
+        var swiper = new Swiper('.banner .swiper-container1', {
             slidesPerView: 1,
             autoplay:true,
             spaceBetween: 30,
+            paginationClickable: true,
             loop: true,
             pagination: {
-                el: '.banner .swiper-pagination',
+                el: '.banner .swiper-pagination1',
                 clickable: true,
+                clickableClass:".banner .swiper-pagination1"
             },
             navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
+                nextEl: ('.swiper-button-next1'),
+                prevEl: ('.swiper-button-prev1'),
             },
         });
-        var swiper = new Swiper('.icon_list .swiper-container', {
+        var swiper = new Swiper('.icon_list .swiper-container2', {
             slidesPerView: 4,
             spaceBetween: 10,
             slidesPerGroup: 4,
+            paginationClickable: true,
             pagination: {
-                el: '.icon_list .swiper-pagination',
+                el: '.icon_list .swiper-pagination2',
                 clickable: false,
+                clickableClass:".swiper-pagination2"
             },
             loop: true,
             loopFillGroupWithBlank: true,
