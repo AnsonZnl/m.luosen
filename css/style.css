@@ -1,14 +1,15 @@
 /*公共样式*/
+/*字体*/
 *{
     padding: 0;
     margin: 0;
 }
 body {
     font-family: Arial, "微软雅黑", "宋体", sans-serif;
-    font-size: .2rem;
+    font-size: .22rem;
 }
 p,span{
-    font-size: .2rem;
+    font-size: .22rem;
 }
 a{
     text-decoration: none;
@@ -19,6 +20,24 @@ li{
 }
 img{
     display: block;
+    width: 100%;
+}
+.active{
+    background: url("../images/nav_active.gif");
+    color: #0e7ac0!important;
+}
+.noright{
+    border-right: none;
+}
+.noleft{
+    border-left: none;
+}
+/*布局*/
+
+.container{
+    width: 95%;
+    margin-right: auto;
+    margin-left: auto;
 }
 .fl{
     float: left;
@@ -29,9 +48,6 @@ img{
 .bolck{
     display: block;
 }
-.mb20{
-    margin-bottom: 20px;
-}
 .inline-block{
     display: inline-block;
 }
@@ -41,12 +57,20 @@ img{
     display: block;
     clear: both;
 }
-.container{
-    width: 95%;
-    margin-right: auto;
-    margin-left: auto;
+.mb20{
+    margin-bottom: 20px;
 }
-.active{
-    background: url("../images/nav_active.gif");
-    color: #0e7ac0!important;
+.mbd3rem{
+    margin-bottom: .3rem;
+}
+.col-4{
+    width: 30%;
+    padding: .1rem;
+    float: left;
+}
+.col-3{
+    width: 24%;
+    float: left;
+    padding: 0;
+    border:solid #c3cacf 2px;
 }

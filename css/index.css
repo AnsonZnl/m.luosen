@@ -1,30 +1,4 @@
-.container{
-    width: 95%;
-    margin: auto;
-}
-.mbd3rem{
-    margin-bottom: .3rem;
-}
-.col-4{
-    width: 30%;
-    padding: .1rem;
-    float: left;
-}
-.col-3{
-    width: 24%;
-    float: left;
-    padding: 0;
-    border:solid #c3cacf 2px;
-}
-.noright{
-    border-right: none;
-}
-.noleft{
-    border-left: none;
-}
-img{
-    width: 100%;
-}
+/*header*/
 .navbar-header{
 	position: fixed;
     top: 0;
@@ -32,25 +6,26 @@ img{
     width: 100%;
     background: #0073be;
     z-index: 999999;
+    border-bottom: solid 2px #00609e;
 }
 .navbar-header .logo{
 	width: 35%;
 }
-.navbar-header .ri{
+.navbar-header .header_right{
 	width: .8rem;
     margin-top: .01rem;
     float: right;
 }
 .nav{
     position: relative;
-    /*padding-top: .1rem;*/
 }
 .nav .box{
     display: block;
     position: absolute;
-    top: .7rem;
+    top: .76rem;
     right: 0;
     width: 3rem;
+    border: solid 1px #00609e;
 }
 .nav  .none{
     display: none;
@@ -63,7 +38,9 @@ img{
     color: #fff;
     font-size: .23rem;
     text-align: center;
+    border-bottom:solid 1px #00609e;
 }
+/*banner*/
 .banner {
     margin-top: .7rem;
 }
@@ -91,9 +68,7 @@ img{
     height:1rem;
     background: url("../images/banner_prev.png") no-repeat;
 }
-.icon_list {
-
-}
+/*icon_list*/
 .icon_list .swiper-container{
     height: 1.5rem;
     width: 85%;
@@ -114,13 +89,13 @@ img{
 }
 .icon_list .swiper-button-next{
     position: absolute;
-    top: -.3rem;
+    top: -.33rem;
     right: 0;
     background: url("../images/next.png") no-repeat;
 }
 .icon_list .swiper-button-prev{
     left: .1rem;
-    top: -.3rem;
+    top: -.33rem;
     background: url("../images/prev.png") no-repeat;
 }
 .icon_list .swiper-slide span{
@@ -134,10 +109,19 @@ img{
     color: #a5a5a5;
     font-size: .23rem;
 }
-.container .col-3 img{
-    height: 1.3rem;
+/*.main*/
+.main .col-4 i{
+    position: absolute;
+    top: .03rem;
+    left: .1rem;
+    display: inline-block;
+    width: .3rem;
 }
-.container .col-4 span{
+.main .col-4 i img{
+    display: block;
+    width: 100%;
+}
+.main .col-4 span{
     margin-top:-.4rem;
     position: relative;
     display: block;
@@ -147,25 +131,22 @@ img{
     color: #fff;
     text-align: center;
 }
-.container .col-4 i{
-    position: absolute;
-    top: .03rem;
-    left: .1rem;
-    display: inline-block;
-    width: .3rem;
+/*index*/
+.index .col-3 img{
+    height: 1.3rem;
 }
-.container .col-4 i img{
-    display: block;
-    width: 100%;
+.index .noright{
+    border-right: none;
 }
+.index .noleft{
+    border-left: none;
+}
+/*footer*/
 .footer{
     background-color: #E4E9EE;
     color: #939393;
     text-align: center;
     padding: 12px 0;
-}
-.footer p{
-    font-size: .2rem;
 }
 .footer .copyright img{
     display: inline-block;
