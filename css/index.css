@@ -37,18 +37,19 @@ img{
 	width: 35%;
 }
 .navbar-header .ri{
-	width: 55%;
+	width: 51%;
 }
 .nav{
     position: relative;
 }
 .nav .box{
+    display: block;
     position: absolute;
     top: .7rem;
     right: 0;
     width: 3rem;
 }
-.nav .none{
+.nav  .none{
     display: none;
 }
 .nav .box a{
@@ -136,6 +137,9 @@ img{
     color: #939393;
     text-align: center;
     padding: 12px 0;
+}
+.footer p{
+    font-size: .2rem;
 }
 .footer .copyright img{
     display: inline-block;

@@ -5,7 +5,10 @@
 }
 body {
     font-family: Arial, "微软雅黑", "宋体", sans-serif;
-    font-size: .12rem;
+    font-size: .2rem;
+}
+p,span{
+    font-size: .2rem;
 }
 a{
     text-decoration: none;

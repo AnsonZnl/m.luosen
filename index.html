@@ -55,16 +55,8 @@
         <div class="swiper-container">
             <div class="swiper-wrapper">
                 <div class="swiper-slide"><a href="">
-                    <img src="images/m1.jpg" alt="">
-                    <span>商品介绍</span>
-                </a></div>
-                <div class="swiper-slide"><a href="">
                     <img src="images/m2.jpg" alt="">
                     <span>促销活动</span>
-                </a></div>
-                <div class="swiper-slide"><a href="">
-                    <img src="images/m3.jpg" alt="">
-                    <span>便民服务</span>
                 </a></div>
                 <div class="swiper-slide"><a href="">
                     <img src="images/m4.jpg" alt="">
@@ -139,10 +131,10 @@
         var nav=document.getElementById("js_nav");
         var box=document.getElementById("js_box");
         nav.onclick=function (ev) {
-            if(box.className="box"){
-                    box.className="box"
+            if(box.className=="box"){
+                    box.className="box none"
             }else {
-                box.className="box none"
+                box.className="box"
             }
         };
 
@@ -150,6 +142,7 @@
 
         var swiper = new Swiper('.banner .swiper-container', {
             slidesPerView: 1,
+            autoplay:true,
             spaceBetween: 30,
             loop: true,
             pagination: {
