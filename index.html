@@ -130,17 +130,32 @@
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.2/js/swiper.js"></script>
 	<script src="js/fontSizeSet.js"></script>
+	<script src="js/jquery-1.11.1.js"></script>
     <script>
         var nav=document.getElementById("js_nav");
         var box=document.getElementById("js_box");
-        nav.onclick=function (ev) {
+        nav.touchstart=function (ev) {
             if(box.className=="box"){
                     box.className="box none"
             }else {
                 box.className="box"
             }
         };
-
+//
+//var box=document.getElementById("js_box");
+//        $(function() {
+//            if(box.css("display")=="none"){
+//                $("#js_nav").click(function () {
+//                    $("#js_box").stop().slideDown(500);//下来
+//                    console.log("1")
+//                });
+//            }else {
+//                $("#js_nav").click(function () {
+//                    console.log("2");
+//                    $("#js_box").stop().slideUp(500);//下来
+//                });
+//            }
+//        });
 
 
         var swiper = new Swiper('.banner .swiper-container1', {
