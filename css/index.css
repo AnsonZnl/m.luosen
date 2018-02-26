@@ -38,6 +38,7 @@ img{
 }
 .navbar-header .ri{
 	width: .8rem;
+    margin-top: .01rem;
     float: right;
 }
 .nav{
@@ -56,15 +57,15 @@ img{
 }
 .nav .box a{
     display: block;
-    height: .6rem;
-    line-height: .6rem;
+    height: .7rem;
+    line-height: .7rem;
     background: #0073be;
     color: #fff;
-    font-size: .22rem;
+    font-size: .23rem;
     text-align: center;
 }
 .banner {
-    margin-top: .68rem;
+    margin-top: .7rem;
 }
 .banner a{
     display: block;
@@ -137,11 +138,12 @@ img{
     height: 1.3rem;
 }
 .container .col-4 span{
+    margin-top:-.4rem;
     position: relative;
     display: block;
     height: .36rem;
     line-height: .36rem;
-    font-size: .22rem;
+    font-size: .23rem;
     color: #fff;
     text-align: center;
 }
