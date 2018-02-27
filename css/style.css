@@ -9,7 +9,7 @@ body {
     font-size: .22rem;
 }
 p,span{
-    font-size: .22rem;
+    font-size: .24rem;
 }
 a{
     text-decoration: none;
@@ -151,5 +151,5 @@ img{
 }
 .footer .copyright img{
     display: inline-block;
-    width: 0.23rem;
+    width: 0.3rem;
 }
