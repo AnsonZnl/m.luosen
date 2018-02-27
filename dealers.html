@@ -11,7 +11,87 @@
 	      minimum-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <style>
-
+        .suppliers-main p img{
+            width: .4rem;
+        }
+        .suppliers-main p span{
+            display: inline-block;
+            font-size: .25rem;
+            color: #0073be;
+        }
+        .suppliers-main strong a{
+            color: #d52b2a;
+            font-weight: 200;
+            font-size: .4rem;
+        }
+        .suppliers-main form label{
+            margin-bottom: .15rem;
+            display: block;
+            color: #000;
+            font-size: .28rem;
+            font-weight: 600;
+        }
+        .suppliers-main form>input{
+            display: block;
+            width: 93%;
+            height: .51rem;
+            padding: .1rem .2rem;
+            font-size: .27rem;
+            line-height: .51rem;
+            margin-bottom: .2rem;
+            color: #555;
+            background-color: #fff;
+            background-image: none;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .suppliers-main form>textarea{
+            display: block;
+            width: 93%;
+            height: 3rem;
+            padding: .1rem .2rem;
+            font-size: .27rem;
+            line-height: .51rem;
+            color: #555;
+            background-color: #fff;
+            background-image: none;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .suppliers-main form .checkbox1{
+            width: .3rem;
+            height: .3rem;
+            margin-right: 0.1rem;
+            display: inline-block;
+        }
+        .suppliers-main form .form-box1{
+            height: .5rem;
+            position: relative;
+        }
+        .suppliers-main form .form-box1 .checkbox1{
+            position: absolute;
+            top: 0;
+         }
+        .suppliers-main form .form-box1 span{
+            position: absolute;
+            top: 0;
+            left: .45rem;
+         }
+        .suppliers-main form p{
+            font-size: .25rem;
+            color: #333;
+        }
+        .suppliers-main form .submit{
+            display: block;
+            margin: auto;
+            width: 2rem;
+            height: .7rem;
+            line-height: .7rem;
+            color: #fff;
+            font-size: .3rem;
+            background: #0073be;
+            border-radius: 5px;
+        }
     </style>
 </head>
 <body>
@@ -42,7 +122,51 @@
 
 <div class="suppliers-main mbd3rem">
     <div class="container clearfix">
-        
+        <p class="mbd3rem">
+            <img class="inline-block" src="images/phone.jpg" alt="">
+            <span>咨询电话</span>
+        </p>
+        <strong class="mbd3rem bolck"><a href="tel:+0411-82655663-501">0411-82655663-501</a></strong>
+
+        <form action="" method="get">
+            <label for="">* 供货商名称</label>
+            <input type="text">
+            <label for="">* 供货商联系电话</label>
+            <input type="text">
+            <label for="">* 供货商邮箱</label>
+            <input type="text">
+            <label for="">* 供货商联系人</label>
+            <input type="text">
+            <label for="">* 姓别</label>
+            <span class="radio"><label for="dealer_gender_1"><input type="radio" value="1" name="dealer[gender]" id="dealer_gender_1" />男</label></span>
+            <span class="radio"><label for="dealer_gender_1"><input type="radio" value="1" name="dealer[gender]" id="dealer_gender_2" />女</label></span>
+            <label for="">* 商品名称</label>
+            <input type="text">
+            <label for="">* 商品图片</label>
+            <input style="border: none; margin: 0;" class="file required" type="file" name="dealer[good_pic]" id="dealer_good_pic"/>
+            <p class="help-block mbd3rem">仅支持1MB以内的jpg、png、gif格式图片</p>
+            <label for="">* 规格</label>
+            <input type="text">
+            <label for="">* 商品介绍</label>
+            <label for="">(500字以内)</label>
+            <textarea class="mbd3rem" name="" id="" cols="30" rows="10"></textarea>
+
+            <label for="">* 进价</label>
+            <input type="text" value="0.0">
+            <label for="">* 卖价</label>
+            <input type="text" value="0.0">
+            <label for="">* 保质期</label>
+            <input type="text">
+            <label for="">大连有无仓库</label>
+            <div class="form-box1">
+                <input class="checkbox1 inline-block" type="checkbox">
+                <span class="inline-block">(如有请勾选)</span>
+            </div>
+            <label for="">* 运输时间</label>
+            <input type="text" style="text-align: right" value="天">
+            <p class="mbd3rem">从订货到物流中心的时间（上海闵行区虹梅路）</p>
+            <p><input class="submit" type="submit" value="确认提交"></p>
+        </form>
     </div>
 </div>
 

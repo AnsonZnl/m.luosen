@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -11,7 +11,163 @@
 	      minimum-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <style>
+        .contacts-main .txt-color{
+            color: #0073be;
+            font-size: .25rem;
+        }
+        .contacts-main .nav ul li{
+            float: left;
+            width: 49.2%;
+            height: .65rem;
+            line-height: .65rem;
+            border-radius: 4px 4px 0 0;
+            border: #0073be 1px solid;
+            text-align: center;
+            color: #0073be;
+            font-size: .3rem;
+            border-bottom: solid #0073be 3px;
+        }
+        .contacts-main .list_box .nav_active{
+            background: #0073be;
+            color: #fff;
+        }
+        .contacts-main .box0{
+            width: 89%;
+            padding: .3rem;
+            border: #0073be 1px solid;
+        }
+        .contacts-main .box1 h3{
+            margin-top: 7px;
+            margin-bottom: 7px;
+            background: url("http://www.dllawson.com.cn/assets/tabpanel-title-bg-4c414251750622f07ecaf95587d8001215ecddd1c564e93584a7677cdd32f3f0.jpg") no-repeat;
+            color: #0073be;
+            font-size: 15px;
+        }
+        .contacts-main .alert ol{
+            width: 49%;
+        }
+        .contacts-main .alert ol li{
+            font-size: .22rem;
+            margin-bottom: .1rem;
+            color: #31708f;
+        }
+        .contacts-main .row .col-3{
+            padding-top: .1rem;
+            padding-bottom: .1rem;
+            background: #337ab7;
+            text-align: center;
+        }
+        .contacts-main .row .col-3 img{
+            width: .7rem;
+            margin-bottom: .1rem;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .contacts-main .row .col-3 a{
+            color: #fff;
+        }
 
+        .contacts-main strong a{
+            color: #d52b2a;
+            font-weight: 200;
+            font-size: .4rem;
+        }
+
+        .contacts-main form label{
+            margin-bottom: .15rem;
+            display: block;
+            color: #000;
+            font-size: .28rem;
+            font-weight: 600;
+        }
+        .contacts-main form>input{
+            display: block;
+            width: 93%;
+            height: .51rem;
+            padding: .1rem .2rem;
+            font-size: .27rem;
+            line-height: .51rem;
+            margin-bottom: .2rem;
+            color: #555;
+            background-color: #fff;
+            background-image: none;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .contacts-main form>textarea{
+            display: block;
+            width: 93%;
+            height: 3rem;
+            padding: .1rem .2rem;
+            font-size: .27rem;
+            line-height: .51rem;
+            color: #555;
+            background-color: #fff;
+            background-image: none;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .contacts-main form .checkbox1{
+            width: .3rem;
+            height: .3rem;
+            margin-right: 0.1rem;
+            display: inline-block;
+        }
+        .contacts-main form .form-box1{
+            height: .5rem;
+            position: relative;
+        }
+        .contacts-main form .form-box1 .checkbox1{
+            position: absolute;
+            top: 0;
+        }
+        .contacts-main form .form-box1 span{
+            position: absolute;
+            top: 0;
+            left: .45rem;
+        }
+        .contacts-main form p{
+            font-size: .25rem;
+            color: #333;
+        }
+        .contacts-main form .submit{
+            display: block;
+            margin: auto;
+            width: 2rem;
+            height: .7rem;
+            line-height: .7rem;
+            color: #fff;
+            font-size: .3rem;
+            background: #0073be;
+            border-radius: 5px;
+        }
+
+        .contacts-main .box1 .qa-item>.text{
+            padding-top: .4rem;
+            padding-bottom: .4rem;
+            line-height: .4rem;
+            font-size: .26rem;
+            color: #333;
+        }
+        .contacts-main .box1 .qa-item>.title{
+            height: .55rem;
+            line-height: .55rem;
+            font-size: .28rem;
+            color: #0073be;
+            background: #e2f5ff;
+        }
+        .contacts-main .box1 .qa-item span{
+            display: inline-block;
+            width: .55rem;
+            text-align: center;
+            font-size: .31rem;
+            color: #fff;
+            background: #0073be;
+        }
+        .footer{
+            margin-top: 20px;
+        }
     </style>
 </head>
 <body>
@@ -40,22 +196,169 @@
     </div>
 </div>
 
-<div class="news-main mbd3rem">
+<div class="contacts-main mbd3rem">
     <div class="container clearfix">
+        <div class="banner mbd3rem">
+            <img src="http://www.dllawson.com.cn/assets/recruit-banner-f380cd4d8c132dbd38ce893a88003257de7e350947dba7148fe8a808f8019ec0.jpg" alt="">
+        </div>
+        <div class="list_box">
+            <div class="nav">
+                <ul class="clearfix">
+                    <li class="list_li noright nav_active">联系我们</li>
+                    <li class="list_li">Q&A</li>
+                </ul>
+                <div class="box0 clearfix">
+                    <div class="box1">
+                        <p class="mbd3rem">
+                            <img class="inline-block" style="width: .35rem;" src="images/phone.jpg" alt="">
+                            <span class="inline-block txt-color">咨询电话</span>
+                        </p>
+                        <strong class="mbd3rem bolck"><a href="tel:+0411-82655663-501">0411-82655663-501</a></strong>
+                        <p class="txt-color mbd3rem">
+                            请在这里写下对罗森的意见和看法，我们期待您宝贵<br>
+                            打<span style="color: #d52b2a;">※</span>号的项目为必填内容，否则将无法发送。您输入的信息，仅用于回复您的提问和建议之上。
+                        </p>
 
-    </div>
-</div>
+                        <form action="" method="get">
+                            <label for="">* 姓名</label>
+                            <input type="text">
+                            <label for="">* 姓别</label>
+                            <span class="radio"><label for="dealer_gender_1"><input type="radio" value="1" name="dealer[gender]" id="dealer_gender_1" />男</label></span>
+                            <span class="radio"><label for="dealer_gender_1"><input type="radio" value="1" name="dealer[gender]" id="dealer_gender_2" />女</label></span>
+                            <label for="">* 地址</label>
+                            <input type="text">
+                            <label for="">* 电话</label>
+                            <input type="text">
+                            <label for="">* E-mail</label>
+                            <input type="text">
+                            <label for="">* 咨询或投诉类别</label>
+                            <div class="form-box1">
+                                <input class="checkbox1 inline-block" type="checkbox">
+                                <span class="inline-block mbd3rem">商品</span>
+                            </div>
+                            <div class="form-box1">
+                                <input class="checkbox1 inline-block" type="checkbox">
+                                <span class="inline-block mbd3rem">服务</span>
+                            </div>
+                            <div class="form-box1">
+                                <input class="checkbox1 inline-block" type="checkbox">
+                                <span class="inline-block mbd3rem">清洁</span>
+                            </div>
+                            <div class="form-box1">
+                                <input class="checkbox1 inline-block" type="checkbox">
+                                <span class="inline-block mbd3rem">关于加盟店</span>
+                            </div>
+                            <div class="form-box1">
+                                <input class="checkbox1 inline-block" type="checkbox">
+                                <span class="inline-block mbd3rem">其他</span>
+                            </div>
+                            <div class="form-box1">
+                                <input class="checkbox1 inline-block" type="checkbox">
+                                <span class="inline-block mbd3rem">商品</span>
+                            </div>
+                            <label for="">* 城市</label>
+                            <input type="text">
+                            <label for="">* 店铺名称</label>
+                            <input type="text" style="margin-bottom: 5px;">
+                            <span class="mbd3rem bolck" style="color: #333;">如果是加盟咨询请您输入“加盟店铺”</span>
+                            <label>* 是否回复</label>
+                            <div class="form-box1">
+                                <input class="checkbox1 inline-block" type="checkbox">
+                                <span class="inline-block mbd3rem">是否需要我们回复</span>
+                            </div>
+                            <label for="" style="margin: 0;">* 商品介绍</label>
+                            <label for="">(500字以内)</label>
+                            <textarea class="mbd3rem" name="" id="" cols="30" rows="10"></textarea>
+                            <p><input class="submit" type="submit" value="确认提交"></p>
+                        </form>
 
-<div class="footer">
-    <div class="container">
-        <div class="copyright">
-            <p>© DALIAN LAWSON CO.,LTD.</p>
-            <p>辽ICP备16002246号</p>
-            <p><img src="images/icp.png" alt="">辽公网安备 21020202000123号</p>
+
+                    </div>
+                    <div class="box1"  style="display: none;">
+                        <div class="qa-item">
+                            <p class="title">
+                                <span>Q1</span>
+                                大连罗森的咨询电话是多少？
+                            </p>
+                            <p class="text">
+                                0411-82655195转701。如果您有任何疑问或意见、建议，请拨打我们的咨询热线。
+                            </p>
+                        </div>
+                        <div class="qa-item">
+                            <p class="title">
+                                <span>Q2</span>
+                                我想加盟罗森，该怎么办？
+                            </p>
+                            <p class="text">
+                                您可以拨打“0411-82655195转701”热线电话进行咨询，也可在本网站的加盟页面里进行在线查询相关信息。
+                                <br>
+                                <strong class="inline-block">加盟页面：</strong><a class="inline-block" href="http://dllawson_test.greatweb.cn/franchises">http://dllawson_test.greatweb.cn/franchises</a>
+                            </p>
+
+                        </div>
+                        <div class="qa-item">
+                            <p class="title">
+                                <span>Q2</span>
+                                我想面试罗森的工作，该怎么做？
+                            </p>
+                            <p class="text">
+                                <strong class="inline-block">请查询本网站的招聘页面：</strong>
+                                <a class="inline-block" href="http://dllawson_test.greatweb.cn/recruit_applies">http://dllawson_test.greatweb.cn/recruit_applies</a>
+                                您可以直接在招聘页面上传您的简历。
+                            </p>
+                        </div>
+                        <div class="qa-item">
+                            <p class="title">
+                                <span>Q2</span>
+                                我想成为罗森的供应商，该怎么做？
+                            </p>
+                            <p class="text">
+                                请在此页面登陆您的信息。
+                                <strong class="inline-block">页面：</strong>
+                                <a class="inline-block" href="http://dllawson_test.greatweb.cn/recruit_applies">http://dllawson_test.greatweb.cn/recruit_applies</a>
+
+                            </p>
+                        </div>
+                        <div class="qa-item">
+                            <p class="title">
+                                <span>Q2</span>
+                                罗森可以代还信用卡、交电话费吗？
+                            </p>
+                            <p class="text">
+                                可在店铺的拉卡拉上自助还信用卡，交电话费。
+                            </p>
+                        </div>
+                        <div class="qa-item">
+                            <p class="title">
+                                <span>Q2</span>
+                                怎样关注大连罗森的微信公众号？
+                            </p>
+                            <p class="text">
+                                （1）在微信公众号中搜索【大连罗森便利店】，添加关注即可。
+                                <br>
+                                （2）扫描二维码直接关注。
+                                <br>
+                                欢迎关注大连罗森微信微信公众号，掌握最新商品、促销活动等信息。
+                            </p>
+                            <img src="http://www.dllawson.com.cn/assets/weixin-477802ce1eff43845bc4b291ba68ae6d60d79c834ec0e92d7a31bcb58fbd627c.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
-</div>
-<script src="js/fontSizeSet.js"></script>
-<script src="js/script.js"></script>
+
+    <div class="footer">
+        <div class="container">
+            <div class="copyright">
+                <p>© DALIAN LAWSON CO.,LTD.</p>
+                <p>辽ICP备16002246号</p>
+                <p><img src="images/icp.png" alt="">辽公网安备 21020202000123号</p>
+            </div>
+        </div>
+    </div>
+    <script src="js/fontSizeSet.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
