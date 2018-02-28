@@ -142,6 +142,12 @@ img{
     font-size: .4rem;
     color: #777;
 }
+.contacts span{
+    font-size: .29rem;
+    font-family: '微软雅黑';
+    height: .39rem;
+    line-height: .39rem;
+}
 /*footer*/
 .footer{
     background-color: #E4E9EE;
