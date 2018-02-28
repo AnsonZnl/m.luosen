@@ -10,7 +10,7 @@
 	      maximum-scale=1.0,
 	      minimum-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/index.css">
+    <!--<link rel="stylesheet" href="css/index.css">-->
     <style>
         .page-header{
             padding-top: .3rem;
@@ -57,6 +57,27 @@
             background: #0e7ac0;
             color: #fff;
         }
+
+        /*子页面*/
+        .promotion_children{
+            border: 1px solid #0073be;
+            padding: .3rem;
+        }
+        .promotion_children h3{
+            font-size: .35rem;
+            font-weight: 500;
+            line-height: .6rem;
+            color: #0073be;
+        }
+        .promotion_children strong{
+            font-size: .32rem;
+            color: #333;
+            margin-bottom: .1rem;
+        }
+        .promotion_children p{
+            font-size: .29rem;
+            color: #333;
+        }
     </style>
 </head>
 <body>
@@ -86,9 +107,18 @@
 </div>
 <div class="promotion-main mbd3rem">
     <div class="container clearfix">
-        <div class="col-4" style="padding-left: .05rem;"><a href="promotions_children.html"><img src="images/promotion_img1.jpg" alt=""></a></div>
-        <div class="col-4"><a href="promotions_children.html"><img src="images/promotion_img2.jpg" alt=""></a></div>
-        <div class="col-4"><a href="promotions_children.html"><img src="images/promotion_img3.jpg" alt=""></a></div>
+        <div class="promotion_children">
+            <h3 class="mbd3rem">
+                新店开业预告
+                <br>
+                2017.04.07
+            </h3>
+            <img class="mbd3rem" src="http://www.dllawson.com.cn/uploads/promotion_cover/142/cover.jpg" alt="">
+            <strong class="bolck">西安路如意街店</strong>
+            <p>
+                店铺地址：大连市沙河口区兴工街道昌平街54号1单元1层1号
+            </p>
+        </div>
     </div>
 </div>
 <div class="pages">
@@ -108,16 +138,17 @@
             <li><a href="" class="pages_right">尾页</a></li>
         </ul>
     </div>
-<div class="footer">
-    <div class="container">
-        <div class="copyright">
-            <p>© DALIAN LAWSON CO.,LTD.</p>
-            <p>辽ICP备16002246号</p>
-            <p><img src="images/icp.png" alt="">辽公网安备 21020202000123号</p>
+    <div class="footer">
+        <div class="container">
+            <div class="copyright">
+                <p>© DALIAN LAWSON CO.,LTD.</p>
+                <p>辽ICP备16002246号</p>
+                <p><img src="images/icp.png" alt="">辽公网安备 21020202000123号</p>
+            </div>
         </div>
     </div>
-</div>
-<script src="js/fontSizeSet.js"></script>
-<script src="js/script.js"></script>
+    </div>
+    <script src="js/fontSizeSet.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
