@@ -1,0 +1,141 @@
+
+.contacts-main .txt-color{
+    color: #0073be;
+    font-size: .25rem;
+}
+.contacts-main .nav ul li{
+    float: left;
+    width: 49.2%;
+    height: .65rem;
+    line-height: .65rem;
+    border-radius: 4px 4px 0 0;
+    border: #0073be 1px solid;
+    text-align: center;
+    color: #0073be;
+    font-size: .3rem;
+    border-bottom: solid #0073be 3px;
+}
+.contacts-main .list_box .nav_active{
+    background: #0073be;
+    color: #fff;
+}
+.contacts-main .box0{
+    width: 89%;
+    padding: .3rem;
+    border: #0073be 1px solid;
+}
+.contacts-main .box1 h3{
+    margin-top: 7px;
+    margin-bottom: 7px;
+    background: url("http://www.dllawson.com.cn/assets/tabpanel-title-bg-4c414251750622f07ecaf95587d8001215ecddd1c564e93584a7677cdd32f3f0.jpg") no-repeat;
+    color: #0073be;
+    font-size: 15px;
+}
+.contacts-main .alert ol{
+    width: 49%;
+}
+.contacts-main .alert ol li{
+    font-size: .22rem;
+    margin-bottom: .1rem;
+    color: #31708f;
+}
+.contacts-main strong a{
+    color: #d52b2a;
+    font-weight: 200;
+    font-size: .4rem;
+}
+
+.contacts-main form label{
+    margin-bottom: .15rem;
+    display: block;
+    color: #000;
+    font-size: .28rem;
+    font-weight: bold;
+}
+.contacts-main form>input{
+    display: block;
+    width: 93%;
+    height: .51rem;
+    padding: .1rem .2rem;
+    font-size: .27rem;
+    line-height: .51rem;
+    margin-bottom: .2rem;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.contacts-main form>textarea{
+    display: block;
+    width: 93%;
+    height: 3rem;
+    padding: .1rem .2rem;
+    font-size: .27rem;
+    line-height: .51rem;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.contacts-main form .checkbox1{
+    width: .3rem;
+    height: .3rem;
+    margin-right: 0.1rem;
+    display: inline-block;
+}
+.contacts-main form .form-box1{
+    height: .5rem;
+    position: relative;
+}
+.contacts-main form .form-box1 .checkbox1{
+    position: absolute;
+    top: 0;
+}
+.contacts-main form .form-box1 span{
+    position: absolute;
+    top: 0;
+    left: .45rem;
+}
+.contacts-main form p{
+    font-size: .25rem;
+    color: #333;
+}
+.contacts-main form .submit{
+    display: block;
+    margin: auto;
+    width: 2rem;
+    height: .7rem;
+    line-height: .7rem;
+    color: #fff;
+    font-size: .3rem;
+    background: #0073be;
+    border-radius: 5px;
+    border:none;
+}
+.contacts-main .box1 .qa-item>.text{
+    padding-top: .4rem;
+    padding-bottom: .4rem;
+    line-height: .4rem;
+    font-size: .26rem;
+    color: #333;
+}
+.contacts-main .box1 .qa-item>.title{
+    height: .55rem;
+    line-height: .55rem;
+    font-size: .28rem;
+    color: #0073be;
+    background: #e2f5ff;
+}
+.contacts-main .box1 .qa-item span{
+    display: inline-block;
+    width: .55rem;
+    text-align: center;
+    font-size: .31rem;
+    color: #fff;
+    background: #0073be;
+}
+.footer{
+    margin-top: 20px;
+}

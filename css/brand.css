@@ -1,0 +1,73 @@
+.brand-main .nav ul li{
+    float: left;
+    width: 24.5%;
+    height: .65rem;
+    line-height: .65rem;
+    border-radius: 4px 4px 0 0;
+    text-align: center;
+    border: #0073be 1px solid;
+    color: #0073be;
+    font-size: .3rem;
+    border-bottom: solid #0073be 3px;
+}
+.brand-main .list_box .nav_active{
+    background: #0073be;
+    color: #fff;
+}
+.brand-main .box0{
+    width: 89%;
+    padding: .3rem;
+    border: #0073be 1px solid;
+}
+.brand-main .box1 h3{
+    margin-top: 7px;
+    margin-bottom: 7px;
+    padding: .1rem;
+    background:linear-gradient(to right,#9bd8ff,#fff);
+    color: #0073be;
+    font-size: .3rem;
+}
+.brand-main .box1 .alert{
+    padding: .3rem;
+    margin-bottom: .3rem;
+    color: #31708f;
+    background-color: #d9edf7;
+    border:solid 1px #bce8f1;
+    border-radius: .1rem;
+}
+.brand-main .alert .title{
+    width: 50%;
+    color: #0073be;
+    font-size: .25rem;
+    font-weight: 900;
+    font-family: '微软雅黑';
+}
+.brand-main .alert ol{
+    width: 49%;
+}
+.brand-main .alert ol li{
+    font-size: .22rem;
+    margin-bottom: .1rem;
+    color: #31708f;
+}
+.brand-main .box2{
+    float: left;
+    margin-bottom: 10px;
+}
+.brand-main .ml1rem{
+    margin-right: .1rem;
+}
+.brand-main p,span{
+    line-height: .4rem;
+    font-size: .25rem;
+}
+.brand-main .brand-box{
+    border: #0073be 1px solid;
+    border-radius: 5px;
+    padding: .23rem;
+    color: #0073be;
+    font-size: .27rem;
+}
+.brand-main .brand-txt{
+    color: #0073be;
+}
