@@ -10,7 +10,7 @@
     z-index: 2;
     position: absolute;
     top: 50%;
-    right: 0;
+    right: .1rem;
     margin-top: -.34rem;
     width: 0.45rem;
     height: 1rem;
@@ -21,7 +21,7 @@
     z-index:2;
     position: absolute;
     top:50%;
-    left:0;
+    left:.1rem;
     margin-top: -.34rem;
     width: .45rem;
     height:1rem;
