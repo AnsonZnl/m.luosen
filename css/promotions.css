@@ -29,6 +29,7 @@
     padding: .08rem .202rem;
     border: solid #ccc 1px;
     border-right: none;
+    font-size:.24rem;
 }
 .page_left {
     border-top-left-radius: 3px;
