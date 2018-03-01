@@ -26,3 +26,8 @@
     background-size: .2rem;
     color: #333;
 }
+.store-main .store_result_list .phone_num{
+    background: none;
+    width: 80%;
+    font-size: .25rem;
+}
