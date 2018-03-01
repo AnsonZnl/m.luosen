@@ -17,7 +17,7 @@
 }
 
 .pagination ul{
-    margin-left: .02rem;
+    margin-left: .05rem;
 }
 .pagination ul li {
     float: left;
@@ -43,4 +43,5 @@
 .pages_active{
     background: #0e7ac0;
     color: #fff;
+    border-radius: 0;
 }
