@@ -23,8 +23,7 @@ img{
     width: 100%;
 }
 .active{
-    background: url("../images/nav_active.gif");
-    color: #0e7ac0!important;
+    background: #005891 !important;
 }
 .noright{
     border-right: none!important;
@@ -97,6 +96,9 @@ img{
 .navbar-header .logo{
     width: 44%;
 }
+.navbar-header .logo a{
+    display: block;
+}
 .navbar-header .header_right{
     width: 1.1rem;
     margin-top: .01rem;
@@ -108,7 +110,7 @@ img{
 .nav .box{
     display: block;
     position: absolute;
-    top: .96rem;
+    top: 1rem;
     right: 0;
     width: 3rem;
     border: solid 1px #00609e;
